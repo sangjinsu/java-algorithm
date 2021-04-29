@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class AdventurerGuild {
     public static void main(String[] args) {
+
         int n;
         ArrayList<Integer> arrayList = new ArrayList<>();
 
@@ -22,11 +23,12 @@ public class AdventurerGuild {
         int count = 0;
         for (int i = 0; i < n; i++) {
             count += 1;
-            if (count >= arrayList.get(i)){
+            if (count >= arrayList.get(i)) {
                 result += 1;
                 count = 0;
             }
         }
+
         System.out.println(result);
     }
 }
