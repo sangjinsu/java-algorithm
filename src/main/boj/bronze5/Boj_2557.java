@@ -1,4 +1,4 @@
-package main.boj.grade01;
+package main.boj.bronzeV;
 
 public class Boj_2557 {
     public static void main(String[] args) {
